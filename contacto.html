@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang= "es">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>| Formulario de contacto |</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/sty.css"/>
+  </head>
+  <body>
+   	<header>
+    	<div>
+				<a href= "index.html"><img src="images/logo-ba.jpg" alt= "logo-inicio"></a> 	
+    	</div>
+    	<nav>
+   			<ul>
+	  			<li><a href="episodios.html">EPISODIOS</a></li>
+					<li><a href="persprin.html">PERSONAJES PRINCIPALES</a></li>
+	  			<li><a href="galeria.html">IMAGENES</a/></li>
+	  			<li><a href="criticas.html">CRÍTICAS</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+	  		</ul>			
+    	</nav>
+  	</header>
+  	<h1>DATOS DE CONTACTO</h1>
+   <form class="formulario" action="" method="GET">
+   	 	<label for= "nombre">NOMBRE:</label>	
+   	 	<input required autocomplete="off" placeholder="Ej: Oscar"></input><br>
+   	 	<label for= "pseudonimo">PSEUDONIMO:</label>
+	 		<input autocomplete="off" placeholder="Ej: Taladro123"></input><br>
+	 		<label for= "hombre">SEXO:</label>
+	 		MASCULINO<input class="not" type= "radio" name ="sexo" value = "Masculino" id= "hombre" checked/>
+	 		FEMENINO<input class="not" type= "radio" name= "sexo" value = "Femenino" id= "mujer"/><br>
+	 		<label for ="email">CORREO ELECTRONICO:</label>
+	 		<input type="email" name= "email" id= "correo" placeholder="nombre@dominio.com" required/><br>
+	 		<label for ="puntaje" id= "puntaje">QUE PUNTAJE CREE QUE TIENE LA SERIE ?:</label>
+	 		<select name ="puntaje">
+	 		<option value= "M">MALO</option>
+	 		<option value= "R">REGULAR</option>
+	 		<option value= "B">BUENO</option>
+	 		</select><br><br>
+	 		<textarea rows="10" cols="88" placeholder="Comentarios....."></textarea>
+	 		<button>ENVIAR</button>
+   </form>
+   <footer>
+		<p>Contactanos:</p>
+		<a href="contacto.html"><img src="images/logo-correo.png" alt="correo"></a>
+		<p>Siguenos en nuestras redes:</p>
+		<a href= "https://twitter.com"><img src="images/logo-x.png" alt="red social X"></a>
+		<a href= "https://taringa.net"><img src="images/logo-taringa.png" alt="blog Taringa"></a>
+   		<!--enviar el datetime con JS-->
+   </footer>  			
+  </body>
+</html>

@@ -1,0 +1,684 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family :'Oswald',sans-serif;
+	background-image: url(../images/img4.jpg) ;
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 200px;
+	padding: 3% 8% 3% 8%;
+	background-color: #FFAF33;
+
+}
+
+header div a img{
+	width: 250px;
+}
+
+nav ul{
+	margin-top: 5%
+}
+
+nav ul li{
+	display: inline-flex;
+}
+
+nav ul li a{
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px;
+}
+
+nav ul li a:hover{
+	color: #000000;
+}
+a{
+ 	text-decoration: none;
+	color:#FFFFFF;
+}
+
+section{
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	border-radius: 0.5em;
+	backdrop-filter: blur(8px);
+}
+
+.principal{
+	display: flex;
+}
+
+.principal div img{
+	width: 600px;
+	height: 400px;
+	margin: 5px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;	
+}
+
+.principal aside{
+	background-color: #FFAF33;
+	width: 685px;
+	height: 400px;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+.principal aside p{
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	overflow-wrap: break-word;
+}
+
+.secundario{
+	display: flex;
+}
+
+.secundario div img{
+	width: 600px;
+	height: 400px;
+	margin: 5px;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;	
+}
+
+.secundario aside{
+	background-color: #FFAF33;
+	width: 685px;
+	height: 400px;
+	margin: 5px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	text-align: center;
+}
+
+.secundario aside p{
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	overflow-wrap: break-word;
+}
+
+.episodes{
+	display: flex;
+	justify-content: space-between;
+	margin-block: 20px;
+}
+
+.episodes span{
+	background-color: #FFAF33;
+}
+
+.episodes span h2{
+	font-size: 150%;
+}
+.episodes span img{
+	width: 433px;
+	height: 300px;
+	margin: 5px;	
+}
+
+.episodes span div p{
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	overflow-wrap: break-word;
+}
+
+.bordes {
+	border-left-style: solid; 
+	border-right-style: solid;
+}
+
+
+.personajes {
+	display: flex;
+}
+
+
+.personajes span img{
+	width: 320px;
+	height: 400px;
+}
+
+.personajes aside{
+	background-color: #FFAF33;
+	width:600%;
+	height: 400px;
+	border-style: solid;
+}
+
+.personajes aside p{
+	margin-left: 20px;
+	margin-right: 10px;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+#pers aside{
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+#pers aside p{
+	margin-left: 20px;
+	margin-top: 100px;
+	overflow-wrap: break-word;
+}
+
+#pers img{
+	width: 320px;
+	height: 400px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+.gallery{
+	display: flex;
+	margin-top: 10px;
+}
+
+.gallery a{
+	width: 70%;
+	margin: 5px;
+}
+
+.gallery img{
+	width: 100%;
+	border-radius: 0.5em;
+}
+
+.carousel.slide{
+	margin: auto;
+	width: 750px;
+	height: 500px;
+}
+
+.carousel-item{
+	margin-top: 50px;
+}
+
+.carousel-item img{
+
+	border-radius: 0.5em;
+	width: 600px;
+	height: 400px;
+}
+
+.carousel-item img:hover{
+	transition-timing-function: 0;
+}
+.carousel-control-next-icon{
+	background-color: #000000;
+	margin-left: 90px;
+	border-radius: 1em;
+}
+
+.carousel-control-prev-icon{
+	background-color: #000000;
+	margin-right: 90px;
+	border-radius: 1em;
+}
+
+.formulario {
+	
+	margin-left: 400px;
+	margin-right: 400px;
+	background: #E6E6E6;
+	box-shadow:0 0 40px -10px #000;
+	border-radius:0.5em;
+	margin-top: 50px;
+	padding:10px 30px;
+	font-family:'Roboto Mono',sans-serif;
+	font-size: 1.2rem;
+	position:relative;
+}
+
+.formulario input:not(.not){
+	width: 100%;
+	margin: 10px;
+	margin-left: 0;
+	margin-right: 50px;
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	border-bottom: 1px solid #000;
+	resize: none;
+	outline: none;
+}
+
+.formulario input{
+	margin: 30px 30px 30px 10px;
+}
+
+
+.formulario button{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	color: #000000;
+	padding:8px 12px;
+	margin:20px 0 0  270px;
+	border-style: solid;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+.formulario button:hover{
+	background: #000000;
+	color: #FFFFFF;
+}
+
+h1{
+	font-style: verdana;
+	font-size: 250%;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;	
+}
+
+h2{	
+	font-style: verdana;
+	font-size: 200%;
+	text-align: center;
+	text-transform : uppercase;	
+	
+}
+
+h2:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 175%;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	padding: 3% 5% 3% 5%;
+	margin-top: 150px;
+	background-color: #FFAF33;	
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	margin: 50px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+footer p:hover{
+	color: #000000;
+}
+
+footer img{
+	width: 3rem;
+	height: 3rem;
+	margin: 10px;
+}
+
+@media (max-width: 480px) { 
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	padding: 1% 4% 1% 4%;
+	background-color: #FFAF33;
+}
+
+header div a img{
+	width: 125px;
+	height: 65px;
+}
+
+/* PENDIENTE PARA APLICAR JS
+.icon {
+	display: block;
+	padding-right: 0.6rem;
+	text-align: right;
+}
+nav ul {
+	display: none;
+}
+nav.responsive ul {
+	display: block;
+}
+nav.responsive ul li {
+	display: block;
+	text-align: center;
+	padding: 0.5rem;
+}
+nav.responsive ul li a {
+	padding-right: 0;
+}
+*/
+nav ul{
+	margin-top: 2%
+}
+
+nav ul li{
+	display: inline-flex;
+}
+
+nav ul li a{
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 5px;
+}
+
+nav ul li a:hover{
+	color: #000000;
+}
+
+
+section{
+	max-width: 480px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-radius: 0.5em;
+	backdrop-filter: blur(8px);
+}
+
+section p{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 0.85rem;
+}
+
+.principal{
+	display: flex-wrap;
+}
+
+.principal div img{
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;	
+}
+
+.principal aside{
+	background-color: #FFAF33;
+	width: 285px;
+	height: 200px;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+.principal aside p{
+	text-align: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 15px;
+	overflow-wrap: break-word;
+}
+
+.secundario{
+	display: flex-wrap;
+}
+
+.secundario div img{
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;	
+}
+
+.secundario aside{
+	background-color: #FFAF33;
+	width: 285px;
+	height: 200px;
+	margin: 5px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+.secundario aside p{
+	text-align: left;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 20px;
+	overflow-wrap: break-word;
+}
+
+.episodes{
+	flex-wrap: wrap;
+	margin-block: 2px;
+}
+
+.episodes span{
+	background-color: #FFAF33;
+	
+}
+
+.episodes span h2{
+	font-size: 75%;
+}
+.episodes span img{
+	width: 216px;
+	height: 150px;
+	margin: 2px;	
+}
+
+.episodes span div p{
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	overflow-wrap: break-word;
+}
+
+.bordes {
+	border-left-style: solid; 
+	border-right-style: solid;
+}
+
+.personajes {
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.personajes span img{
+	width: 120px;
+	height: 200px;
+}
+
+.personajes aside{
+	background-color: #FFAF33;
+	width: 120px;
+	height: 200px;
+	border-style: solid;
+}
+
+.personajes aside p{
+	font-size: 0.7rem;
+	margin-left: 10px;
+	margin-right: 5px;
+	text-align: left;
+	overflow-wrap: break-word;
+}
+
+#pers aside{
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+#pers aside p{
+	font-size: 0.7rem;
+	margin-left: 5px;
+	margin-top: 10px;
+	overflow-wrap: break-word;
+}
+
+#pers img{
+	margin-left: 120px;
+	width: 120px;
+	height: 200px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+
+.gallery{
+	margin-top: 2px;
+}
+
+
+.carousel.slide{
+	margin: auto;
+	width: 325px;
+	height: 250px;
+}
+
+.carousel-item{
+	margin-top: 25px;
+}
+
+.carousel-item img{
+	border-radius: 0.5em;
+	width: 300px;
+	height: 200px;
+}
+
+.carousel-item img:hover{
+	transition-timing-function: 0;
+}
+.carousel-control-next-icon{
+	background-color: #000000;
+	margin-left: 90px;
+	border-radius: 1em;
+}
+
+.carousel-control-prev-icon{
+	background-color: #000000;
+	margin-right: 90px;
+	border-radius: 1em;
+}
+
+.formulario {
+	margin-left: 25px;
+	margin-right: 25px;
+	background: #E6E6E6;
+	box-shadow:0 0 40px -10px #000;
+	border-radius:0.5em;
+	margin-top: 25px;
+	padding: 5px 15px;
+	font-family:'Roboto Mono',sans-serif;
+	font-size: 0.6rem;
+	position:relative;
+}
+
+.formulario input:not(.not){
+	width: 100%;
+	margin: 5px;
+	margin-left: 0;
+	margin-right: 25px;
+	box-sizing: border-box;
+	border: none;
+	background: none;
+	border-bottom: 1px solid #000;
+	resize: none;
+	outline: none;
+}
+
+.formulario input{
+	margin: 15px 15px 15px 5px;
+}
+
+
+.formulario button{
+	background: #FFFFFF;
+	border-radius: 0.5em;
+	color: #000000;
+	padding:8px 12px;
+	margin:10px 0 0  150px;
+	border-style: solid;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+.formulario button:hover{
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.formulario textarea{
+	 width: 100%;
+}
+
+h1{
+	font-style: verdana;
+	font-size: 175%;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;	
+}
+
+h2{	
+	font-style: verdana;
+	font-size: 100%;
+	text-align: center;
+	text-transform : uppercase;	
+	
+}
+
+h2:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 85%;
+}
+
+
+footer{
+	display: flex-wrap;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	padding: 3% 5% 3% 5%;
+	margin-top: 150px;
+	background-color: #FFAF33;	
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	margin: 25px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+footer p:hover{
+	color: #000000;
+}
+
+footer img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 2px;
+}
+}
