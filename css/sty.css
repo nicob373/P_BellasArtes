@@ -474,17 +474,24 @@ section p{
 
 .episodes span{
 	background-color: #FFAF33;
+	margin-bottom: 5px;
+	border-style: none;
 	
 }
 
 .episodes span h2{
 	font-size: 75%;
+	margin-bottom: 5px;
 }
 .episodes span img{
 	width: 216px;
 	height: 150px;
 	margin: 2px;	
 }
+	
+.episodes span div{
+	display: block;
+}	margin-bottom: 5px;
 
 .episodes span div p{
 	text-align: left;
