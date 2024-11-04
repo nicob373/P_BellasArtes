@@ -1,3 +1,4 @@
+.gallery{
 body.lb-disable-scrolling {
   overflow: hidden;
 }
@@ -208,4 +209,5 @@ a img {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
 }
