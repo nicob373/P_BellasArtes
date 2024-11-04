@@ -339,6 +339,9 @@ footer img{
 }
 
 @media (max-width: 480px) { 
+body{
+	height: auto;	
+}
 header{
 	display: flex;
 	justify-content: space-between;
