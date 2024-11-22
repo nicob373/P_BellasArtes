@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/sty.css"/>
  	</head>
 	<body>
@@ -15,7 +16,8 @@
     	<div>
 				<a href= "index.html"><img src="images/logo-ba.jpg" alt= "logo-inicio"></a> 	
     	</div>
-    	<nav>
+				<a href="javascript:void(0);" class="icon" onclick="menuh()"><i class="fa fa-bars"></i></a>
+    	<nav class ="" id="menu_h">
    			<ul>
 	  			<li><a href="episodios.html">EPISODIOS</a></li>
 				<li><a href="persprin.html">PERSONAJES PRINCIPALES</a></li>
@@ -26,7 +28,7 @@
     	</nav>
   	</header>
   	<section>
-  		<h1>SINOPSIS</h1><br>
+  		<h1>SINOPSIS</h1>
   		<p>Antonio Dumas (Oscar Martínez), un prestigioso historiador de arte y gestor cultural, culto y sofisticado, aunque bastante cínico y engreído, es nombrado director de un importante museo de arte contemporáneo en Madrid, al salir victorioso en un concurso para ese cargo. Una vez asumido su nuevo cargo deberá afrontar, en medio de la fauna insólita del mundo del arte, un abanico de circunstancias y conflictos dispares: desde problemas gremiales y presiones políticas, hasta situaciones disparatadas en relación a las exposiciones y a los artistas.</p><br>
 		<article class ="principal">
 				<div>
@@ -65,7 +67,16 @@
 		<p>Siguenos en nuestras redes:</p>
 		<a href= "https://twitter.com"><img src="images/logo-x.png" alt="red social X"></a>
 		<a href= "https://taringa.net"><img src="images/logo-taringa.png" alt="blog Taringa"></a>
-   		<!--enviar el datetime con JS-->
-   	</footer>  			
+   	</footer>  
+	<script type="text/javascript">
+        function menuh() {
+          var menu = document.getElementById("menu_h");
+          if (menu.className === "") {
+            menu.className += "adaptativo";
+          } else {
+            menu.className = "";
+          }
+        }
+    </script>			
  	</body> 	
 </html>
