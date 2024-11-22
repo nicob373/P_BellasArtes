@@ -8,20 +8,22 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/sty.css"/>
   </head>
   <body>
    	<header>
     	<div>
-				<a href= "index.html"><img src="images/logo-ba.jpg" alt= "logo-inicio"></a> 	
+				<a href= "index.html"><img src="images/logo-ba.jpg" alt= "logo-inicio"></a> 
     	</div>
-    	<nav>
+    	<a href="javascript:void(0);" class="icon" onclick="menuh()"><i class="fa fa-bars"></i></a>
+    	<nav id="menu_h" class="">
    			<ul>
 	  			<li><a href="episodios.html">EPISODIOS</a></li>
 					<li><a href="persprin.html">PERSONAJES PRINCIPALES</a></li>
 	  			<li><a href="galeria.html">IMAGENES</a/></li>
 	  			<li><a href="criticas.html">CRÍTICAS</a></li>
-				<li><a href="contacto.html">CONTACTO</a></li>
+					<li><a href="contacto.html">CONTACTO</a></li>
 	  		</ul>			
     	</nav>
   	</header>
@@ -52,6 +54,16 @@
 		<a href= "https://twitter.com"><img src="images/logo-x.png" alt="red social X"></a>
 		<a href= "https://taringa.net"><img src="images/logo-taringa.png" alt="blog Taringa"></a>
    		<!--enviar el datetime con JS-->
-   </footer>  			
+   </footer>
+   <script type="text/javascript">
+        function menuh() {
+          var menu = document.getElementById("menu_h");
+          if (menu.className === "") {
+            menu.className += "adaptativo";
+          } else {
+            menu.className = "";
+          }
+        }
+    </script> 			
   </body>
 </html>
